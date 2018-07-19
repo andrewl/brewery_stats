@@ -57,8 +57,6 @@ try {
 
 
   $result = $dynamodb->putItem($params);
-  echo "Added item: " . print_r($object,1) . "\n";
-
 }
 catch (DynamoDbException $e)
 {
